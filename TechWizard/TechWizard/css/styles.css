@@ -1,0 +1,143 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url(../img/programmer.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2em;
+    flex: 1;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    padding: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+   
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.cta-button:hover {
+    background-color: #3e8e41;
+}
+
+.services {
+    padding: 50px;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex-basis: calc(33% - 20px);
+    background-color: #eee;
+    padding: 20px;
+    margin-bottom:15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    padding-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+    padding: 20px;
+    margin-bottom:15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.service p {
+    font-size: 1.1em;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8em;
+}
+.cv ul {
+    background-color: rgb(124, 192, 219);
+    flex-basis: calc(33% - 20px);
+    background-color: #eee;
+   
+
+}
+h1{
+    background-color: #444;
+}
+h2{
+    background-color: skyblue;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin: 50px;
+}
+
+footer div a img{
+    border-radius: 50%;
+    text-align:top;
+    position: sticky;
+    orientation: inherit;
+   
+}
+
+  
